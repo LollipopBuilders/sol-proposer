@@ -1,0 +1,18 @@
+[package]
+name = "l2_state_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+solana-sdk = "1.17"
+solana-client = "1.17"
+solana-program = "1.17"
+tokio = { version = "1.0", features = ["full"] }
+eyre = "0.6"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+config = "0.13"
+toml = "0.7"
+hex = { version = "0.4", features = ["serde"] }
+shellexpand = "3.1"
+base64 = "0.21"

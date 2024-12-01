@@ -1,0 +1,10 @@
+/target
+**/*.rs.bk
+.env
+.DS_Store
+*.pdb
+*.exe
+*.dll
+/debug
+/release
+Cargo.lock

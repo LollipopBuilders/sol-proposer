@@ -1,0 +1,14 @@
+[network]
+l1_rpc_url = "https://solana-devnet.g.alchemy.com/v2/pw2wvRbDIcTAlOi73eibtHiCMG9UX3al"
+l2_rpc_url = "http://13.215.160.229:8899"
+l1_program_id = "dCU7ZyFxVx87h2sQ37obiU5Dy1ZafGW1LWiafBYq8BF"
+
+[account]
+leaf_chunk_address = "3sQxMHxeYGZSkgNG4vsRCD4BxQNDqmPYpA9Q38Ajyqd2"
+slots_account = "vcwMdMKYZtsp8BK1afURjMn53jcSzT8uGbTsacKCian"
+
+[wallet]
+wallet_path = "~/.config/solana/id.json"
+
+[settings]
+check_interval_secs = 600
